@@ -34,8 +34,8 @@ let isTurned: boolean = true;
             className={clsx(
             'h-10 w-10 rounded-3xl',
             {
-              'bg-green-500' : isTurned === true,
-              'bg-red-500' : isTurned === false,
+              'bg-green-500' : isTurned,
+              'bg-red-500' : !isTurned,
             },
           )}/>
         </div>
